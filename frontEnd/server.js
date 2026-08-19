@@ -10,5 +10,5 @@ server.use(middlewares);
 server.use(router);
 
 server.listen(PORT, "0.0.0.0", () => {
-    console.log(JSON Server is running on port ${PORT});
+    console.log('JSON Server is running on port ${PORT}');
 });
